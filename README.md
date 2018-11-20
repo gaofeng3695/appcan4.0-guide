@@ -4,8 +4,15 @@
 
 ### 一、创建项目
 
-1. 在appcan IDE中创建新项目，删除根目录下的所有文件，保留config.xml
-2. 从gitlab上下载项目模板，放到根目录下
+1. 在appcan IDE中创建新项目，保留config.xml，删除根目录下的所有其他文件
+
+2. 从gitlab上下载开发指导项目(下面是内网地址)
+
+   ```
+   git clone http://192.168.102.9/appcan4.0/developerGuide.git
+   ```
+
+3. 将project-folder内的所有文件copy到appcan新建项目的根目录下
 
 
 
