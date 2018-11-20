@@ -84,7 +84,7 @@
 
 ### 六、Demo示例
 
-   ##### 1. 示例 login.html
+##### 1. 示例 login.html
 
 1. vue实例的创建，vue配置项
 
@@ -98,7 +98,7 @@
 
    
 
-   ##### 2. 示例 index.html
+##### 2. 示例 index.html
 
 1. vue指令的封装和使用，v-setheight自适应div高度
 
@@ -113,7 +113,7 @@
    
 
 
-   ##### 3. 示例 pages/data-statistics/data-statistics.html
+##### 3. 示例 pages/data-statistics/data-statistics.html
 
 1. 移动端图表F2的使用，[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/)
 
@@ -124,7 +124,7 @@
    
 
 
-   ##### 4. 示例 pages/data-collection/form/form.html
+##### 4. 示例 pages/data-collection/form/form.html
 
 1. 自定义组件 jas-form-items-group，表单项组件
 
