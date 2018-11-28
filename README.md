@@ -9,7 +9,7 @@
 2. 从gitlab上下载开发指导项目(下面是内网地址)
 
    ```
-   git clone http://192.168.102.9/appcan4.0/developerGuide.git
+   git clone https://gitlab.zyax.cn/appcan4.0-guide/developer-guide.git
    ```
 
 3. 将project-folder内的所有文件copy到appcan新建项目的根目录下
