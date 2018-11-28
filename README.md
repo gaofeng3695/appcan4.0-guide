@@ -75,7 +75,7 @@
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
    ```
 
-   宽高等单位使用vw（1vw大小为屏幕大小的1%）， 字体单位、边距等使用px；
+   宽高等单位使用vw（1vw大小为屏幕宽度大小的1%）， 字体单位、边距等使用px；
 
 2. mint-ui框架
    ```html
@@ -87,9 +87,12 @@
 
     官方文档地址： [https://mint-ui.github.io/docs/#/zh-cn2]
 
-   
 
-### 六、Demo示例
+### 六、页面结构
+
+
+
+### 七、Demo示例
 
 ##### 1. 示例 login.html
 
