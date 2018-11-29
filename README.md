@@ -4,15 +4,16 @@
 
 ### 一、创建项目
 
-1. 在appcan IDE中创建新项目，保留config.xml，删除根目录下的所有其他文件
-
-2. 从gitlab上下载开发指导项目(下面是内网地址)
-
+1. 使用git下载最新的开发指导
    ```
    git clone https://gitlab.zyax.cn/appcan4.0-guide/developer-guide.git
    ```
 
+2. 在appcan IDE中创建新项目，保留config.xml，删除根目录下的所有其他文件
+
 3. 将project-folder内的所有文件copy到appcan新建项目的根目录下
+
+4. 修改config.xml中起始页等相关信息
 
 
 
@@ -88,9 +89,12 @@
     官方文档地址： [https://mint-ui.github.io/docs/#/zh-cn2]
 
 
+
 ### 六、页面结构
 
 ![](https://ws1.sinaimg.cn/large/0062G6WRly1fxnuycojsdj312s0o3q6l.jpg)
+
+
 
 ### 七、Demo示例
 
@@ -167,8 +171,34 @@
 
 
 
+### 八、编码规则建议
+
+##### 1. 编码工具
+
+   【推荐】使用vscode编写代码，使用appcanIDE辅助项目开发，如代码调试、SVN协作；
+
+   【推荐】安卓真机和fiddler抓包工具调试接口开发；
+
+   【推荐】使用chrome浏览器查看和调试css样式。
+
+##### 2. 文件创建
+
+   【强制】文件存放方法参照文档顶部的目录结构模块；
+
+   【强制】每个页面的css和js代码放在每个html页面内，内容较多的用文件方式放置于页面同级目录下；
+
+   【强制】文件夹及文件均采用小写字母加中划线的命名规则，例 jas-tools.js；
+
+   【推荐】创建新html页面时，直接复制一个相似功能的html进行创建。
+
+##### 3. 代码格式
+
+   【推荐】代码缩进为2个字符大小
+
+   【推荐】字符串用单引号标注，如 ‘this is a string’
+
+   【推荐】变量命名使用小驼峰发，如 basicData
+
+   【推荐】使用vscode的代码格式化工具进行格式化操作
 
 
-
-
-​      
